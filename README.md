@@ -204,7 +204,7 @@
 **Запрос:**  
 ![chat8](assets/images/chat8.png)  
 Чат предоставил подробные разъяснения с кодом.  
-![chat9](assets/images/chat8.png) 
+![chat9](assets/images/chat9.png) 
 
 **Пример Redux-среза:**  
 ```javascript
@@ -235,9 +235,9 @@ export default store;
 ```
 
 Как видим чат справился с задачей и через redux dev tools можем отследить срабатываение dispatch.
-
+![chat10](assets/images/chat10.png) 
 Если задать чату плохой запрос то он выдаст нам ответ совсем несовместимый с нашей задачей:
-![chat11](assets/images/chat11.png)
+![chat9](assets/images/chat11.png)
 Без кода GPT выдал нам редьюсеры c Increment и Decrement, что вообще нам не нужно.
 ---
 
