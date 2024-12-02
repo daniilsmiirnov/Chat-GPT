@@ -232,12 +232,15 @@ const store = configureStore({
 
 export default store;
 ```
-Как видим чат справился с задачей и через redux dev tools можем отследить срабатываение dispatch.
-![chat10](assets/images/chat10.png) 
-Если задать чату плохой запрос то он выдаст нам ответ совсем несовместимый с нашей задачей:
-![chat9](assets/images/chat11.png)
-Без кода GPT выдал нам редьюсеры c Increment и Decrement, что вообще нам не нужно.
----
+Как видим, чат справился с задачей, и через **Redux DevTools** можно отследить срабатывание `dispatch`:  
+![chat10](assets/images/chat10.png)  
+
+
+Если задать чату плохой запрос, то он выдаст ответ, который совсем не соответствует задаче:  
+![chat9](assets/images/chat11.png)  
+
+Без кода GPT выдал редьюсеры с `Increment` и `Decrement`, которые нам вовсе не нужны.  
+
 
 ## Заключение
 
